@@ -498,6 +498,11 @@
       margin: 0 auto;
       text-align: center;
     }
+    .focus-logos{
+      display: grid;
+      grid-template-columns:repeat(auto-fit, minmax(min(260px, max(100px, 100%/2)), 1fr));
+      gap: 0px;
+    }
     .focus-container{
       max-width: 666px;
       margin: 0 auto;

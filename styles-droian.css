@@ -619,7 +619,7 @@
     }
     /*avalible on */
     #avalible-on{
-      margin: 0 auto;
+      margin: 20px auto;
     }
     .title-avalible{
       margin-bottom: 20px;
@@ -641,7 +641,7 @@
       max-height: 60px;
       object-fit: contain;
     }
-    .logo:hover{
+    .logo:hover, .logo2:hover{
       max-width: 300px;
       max-height: 120px;
     }
@@ -670,8 +670,9 @@
       justify-content: center;
       align-items: center;
       position: relative;
-      margin-top: 40px; /* Distance from the logos */
+      margin-top: 20px; /* Distance from the logos */
       overflow: hidden;
+      margin-bottom: 30px;
     }
     
     .buybtn {
@@ -683,7 +684,7 @@
       align-items: center;
       justify-content: center;
     }
-    .logo2:hover , .logo3:hover , .logo4:hover{
+     .logo3:hover , .logo4:hover{
       opacity: 30%;
     }
     @media(max-width:810px){
