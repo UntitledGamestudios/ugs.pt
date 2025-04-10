@@ -1,0 +1,595 @@
+:root{
+    --main-white: #ffffff;
+    --main-red: #ff1500;
+    --main-black: #000000;
+    --main-grey: #171717;
+    --main-yellow:#ffd321; 
+}
+p{
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+}
+h1, h2, h3{
+    font-family:'Bungee', cursive;
+}
+h4{
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 30px;
+    font-optical-sizing: auto;
+}
+nav{
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 30px;
+    font-optical-sizing: auto;
+}
+button{
+    font-weight: bold!important;
+}
+a{
+    font-weight: bold!important;
+}
+li{
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 25px;
+    font-optical-sizing: auto;
+}
+
+/* index css */
+
+.game-UGS1{
+  order: 1!important;
+}
+
+.hero-UGS{
+  background-image: url("Images/Five-way playing Among us with viewers!  Special Livestream (1).png");
+  background-position: center;
+  background-size: cover;
+  order: 2!important;
+  min-width: 650px;
+  max-width: 800px;
+  min-height: 400px;
+}
+
+@media (max-width:500px) {
+  .hero-UGS{
+    background-image: url("Images/1.png");
+    background-position: center;
+    background-size: cover;
+  }
+  
+}
+
+.games-ugs-ani{
+  background-image: url("Images/Scarlet in game port2rait.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-height: 150px;
+  height: 150px;
+
+}
+
+.games-ugs-ani:hover{
+  background-image: url("Images/rainerogreportrait sprite .png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.games-ugs-ani2{
+  background-image: url("Images/bigFace1.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-height: 150px;
+  height: 150px;
+
+}
+
+.games-ugs-ani2:hover{
+  background-image: url("Images/MrKlean_wipe4.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.games-ugs-ani3{
+  background-image: url("Images/319201592_2499490523553488_1310580596606234053_n.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-height: 150px;
+  height: 150px;
+
+}
+
+.games-ugs-ani3:hover{
+  background-image: url("Images/flying_enemy-export.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.games-ugs-ani4{
+  background-image: url("Images/unnamed.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-height: 150px;
+  height: 150px;
+
+}
+
+.games-ugs-ani4:hover{
+  background-image: url("Images/unnamed (1).png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.game-UGS3{
+  order: 3!important;
+}
+
+.UGSHERO-BUTTON{
+  text-align: center;
+  margin-top: 300px;
+}
+
+@media (max-width:500px ){
+  .base-hero-UGS{
+    flex-direction: column;
+    margin: auto;
+    
+  }
+  .game-UGS1{
+    order: 2!important;
+   visibility: hidden;
+   display: none;
+    
+    
+  }
+  .hero-UGS{
+    order: 1!important;
+    min-height: 240px!important;
+    max-width: 650px!important;
+    min-width: 300px;
+
+  }
+  .game-UGS3{
+    order: 3!important;
+   visibility: hidden;
+   display: none;
+  }
+}
+
+@media (max-width:900px ){
+  .base-hero-UGS{
+    flex-direction: column;
+    margin: auto;
+    
+  }
+  .game-UGS1{
+    order: 2!important;
+   visibility: hidden;
+   display: none;
+  }
+  .hero-UGS{
+    order: 1!important;
+    margin: auto;
+
+  }
+  .game-UGS3{
+    order: 3!important;
+   visibility: hidden;
+   display: none;
+  }
+}
+
+
+@media (min-width:1080px ){
+  .dis-tog-ugs{
+    display: none!important;
+  }
+}
+@media (max-width:450px ){
+  .dis-tog-ugs{
+    display: flex;
+    flex-direction: row;
+  }
+  .game-btn-mob{
+    width: 80px;
+  }
+}
+
+@media (min-width:600px ){
+  .dis-tog-ugs{
+    display: flex;
+    flex-direction: row;
+  }
+  .game-btn-mob{
+    width: 150px;
+
+  }
+}
+
+.thejourney-div{
+  background-image:url("Images/Mysterious Are you Ready Animated Instagram Post.png");
+  background-position: 50% 25% ;
+  background-size: cover;
+}
+
+
+
+.playlist-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center playlists horizontally */
+    min-height: auto;
+  }
+  
+  .playlist-subdiv{
+    display: flex;
+    flex-direction: row;
+    gap: 30px; /* Spacing between playlists */
+  }
+  
+  @media (max-width:980px ){
+    .playlist-subdiv{
+      flex-direction: column;
+    }
+  }
+  
+  .Playlist-embed-left, .Playlist-embed-centre, .Playlist-embed-right{
+    display: flex;
+    max-width: 356px;
+    min-height: 225px;
+  
+  }
+  .Game-cards-container{
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.164), rgb(0, 0, 0)),url("images/Curved white lines on black.jpg");
+  }
+
+  .logo-2{
+    max-width: 175px;
+    min-height: 62px;
+    object-fit:contain;
+  }
+  .logo-2:hover{
+    max-width:185px;
+  }
+.social-img{
+  min-height: 65px!important;
+}
+
+.social-img:hover{
+  -webkit-filter: brightness(200%);
+  
+}
+@media (min-width:1000px) {
+  .Discord-win-pc{
+    display: block;
+  }
+}
+@media (max-width:980px ){
+  .Discord-win-pc{
+    display: none;
+  }
+}
+
+@media (min-width:1000px) {
+  .banner-ad{
+    min-height: 120px;
+    margin-right: 30px;
+  }
+}
+@media (max-width:980px ){
+  .banner-ad{
+    min-height: 40px;
+    margin: 10px auto!important;
+  }
+}
+
+
+/*COMMUNITY PAGE*/ 
+
+.photo-gallery h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color:inherit;
+}
+
+@media (max-width:767px) {
+  .photo-gallery h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+  }
+}
+
+.photo-gallery .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto 40px;
+}
+
+.photo-gallery .intro p {
+  margin-bottom:0;
+}
+
+.photo-gallery .photos {
+  padding-bottom:20px;
+}
+
+.photo-gallery .item {
+  padding-bottom:30px;
+}
+
+/*DROIAN PAGE*/
+.menubtndroian{
+  background-color: #ff1500!important;
+  border-color: #000000!important;
+  color: #000000!important;
+}
+.menubtndroian:hover{
+  background-color: #f55243!important;
+}
+
+.droianaboutmeme{
+  border:none!important;
+  background-color: #000000!important;
+  color: #ff1500!important;
+}
+.justifytext{
+  text-align: justify;
+}
+.makechangehover{
+  background-color: #ff1500!important;
+  border-radius: 0%!important;
+  font-family: "Pixelify Sans", sans-serif !important; 
+}
+.makechangehover:hover{
+  background-color: #f55243!important;
+}
+.makeherwrap{
+  word-wrap: break-word;
+}
+.byefilter{
+  filter: none!important;
+}
+
+.specialmp{
+  margin: 150px;
+}
+
+
+
+
+:root {
+  --gif-texture: url(https://64.media.tumblr.com/da60c13b478dda09ab90c27e880983b8/tumblr_nd4pwdPKdc1tun3l0o1_1280.gifv);
+
+}
+
+.scotch-container{
+  
+}
+
+
+.scotch-container:hover {
+  background-image:var(--gif-texture);
+  translate:0px 0px;
+  background-repeat: repeat;
+  background-position-y:-20px;
+  background-size: contain;
+  mix-blend-mode: screen;
+  
+  
+}
+  
+
+
+/*FOR EKSAURIA PAGE*/ 
+
+.eksauria-bg {
+  background: url("Images/Ice kingdom.png") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  text-align: center; 
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  height: 100%;
+  /* For at least Firefox */
+  min-height: 100%;}
+  
+
+.site-wrapper-inner {
+  
+  vertical-align: top; 
+}
+
+.cover-container {
+  margin-right: auto;
+  margin-left: auto; 
+}
+
+.cover-container{
+  margin: 200px 0;
+}
+
+.cover-heading {
+  letter-spacing: 10px;
+  font-family: "Underdog", system-ui;
+  color: #ffffff;
+  
+}
+@media  (max-width: 767px) {
+  .cover-container {
+    margin: 100px 0;
+  }
+  
+}
+
+/*FOR KEEP WIPING PAGE*/
+
+.keepwiping-bg {
+  background: url("Images/keepwipinbubgfvbles67.gif");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: left bottom;
+  background-size: 350px;
+  color: #fff;
+  text-align: center; 
+}
+
+
+/*FOR dnd PAGE*/
+
+.imghover-fx{
+  object-fit: contain;
+}
+
+.imghover-fx:hover{
+  filter: invert(100%)!important;
+
+}
+
+
+/*IFRAME FIX*/
+iframe {
+  color-scheme: light;
+  background-color: transparent;
+}
+
+/*FOR ABOUT US*/
+
+.timeline_area {
+  position: relative;
+  z-index: 1;
+}
+.single-timeline-area {
+  position: relative;
+  z-index: 1;
+  padding-left: 180px;
+}
+@media only screen and (max-width: 575px) {
+  .single-timeline-area {
+      padding-left: 100px;
+  }
+}
+.single-timeline-area .timeline-date {
+  position: absolute;
+  width: 180px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding-right: 60px;
+}
+@media only screen and (max-width: 575px) {
+  .single-timeline-area .timeline-date {
+      width: 100px;
+  }
+}
+.single-timeline-area .timeline-date::after {
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  content: "";
+  background-color: var(--main-yellow);
+  -webkit-box-shadow: 0 0.25rem 1rem 0 rgba(240, 236, 14, 0.125);
+  box-shadow: 0 0.25rem 1rem 0 rgba(234, 200, 47, 0.644);
+  top: 0;
+  right: 30px;
+  z-index: 1;
+}
+.single-timeline-area .timeline-date::before {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: var(--main-yellow);
+  content: "";
+  top: 50%;
+  right: 26px;
+  z-index: 5;
+  margin-top: -5.5px;
+}
+.single-timeline-area .timeline-date p {
+  margin-bottom: 0;
+  color: #9e9e9e;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.single-timeline-area .single-timeline-content {
+  position: relative;
+  z-index: 1;
+  padding: 30px 30px 25px;
+  border-radius: 0px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  -webkit-box-shadow: 0 0.25rem 1rem 0 rgba(240, 236, 14, 0.125);
+  box-shadow: 0 0.25rem 1rem 0 rgba(234, 200, 47, 0.644);
+  border: 1px solid var(--main-yellow);
+}
+@media only screen and (max-width: 575px) {
+  .single-timeline-area .single-timeline-content {
+      padding: 20px;
+  }
+
+  .hideonmobile{
+    display: none;
+  
+  }
+}
+.single-timeline-area .single-timeline-content .timeline-icon {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  width: 30px;
+  height: 30px;
+  background-color: var(--main-yellow);
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 30px;
+  flex: 0 0 30px;
+  text-align: center;
+  max-width: 30px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.single-timeline-area .single-timeline-content .timeline-icon i {
+  color: var(--main-yellow);
+  line-height: 30px;
+}
+.single-timeline-area .single-timeline-content .timeline-text h6 {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+.single-timeline-area .single-timeline-content .timeline-text p {
+  font-size: 16px;
+  margin-bottom: 0;
+  line-height: 1;
+  letter-spacing: 0.01px;
+}
+.single-timeline-area .single-timeline-content:hover .timeline-icon,
+.single-timeline-area .single-timeline-content:focus .timeline-icon {
+  background-color: #9e9e9e;
+}
+.single-timeline-area .single-timeline-content:hover .timeline-text h6,
+.single-timeline-area .single-timeline-content:focus .timeline-text h6 {
+  color: var(--main-yellow);
+}
+

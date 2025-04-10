@@ -1,340 +1,417 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Unleash your inner gamer with Untitled Game Studios (UGS)! We are a Portuguese game development studio crafting innovative and immersive experiences, often with a retro twist. Dive into our world of pixelated perfection and explore Droian, our upcoming sci-fi horror metroidvania!">
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <script src="/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Unleash your inner gamer with Untitled Game Studios (UGS)! We are a Portuguese game development studio crafting innovative and immersive experiences, often with a retro twist.">
+    <meta name="author" content="Untitled Game Studios">
+    <meta name="generator" content="UGS 0.122.0">
+    <title>Untitled Game Studios</title>
+    <link href="images\favicon.png" rel="shortcut icon" type="image/x-icon">
+    <link href="images\webclip.png" rel="apple-touch-icon">
+
+    <!--SOCIAL MEDIA META DATA-->
     <meta property="og:title" content="Untitled Game Studios" />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://ugs.pt/about-us.html" />
-      <meta property="og:image" content="images\Mysterious Are you Ready Animated Instagram Post.png" />
+      <meta property="og:url" content="https://ugs.pt/" />
+      <meta property="og:image" content="images\1.png" />
       <meta name="twitter:card" content="summary"></meta>
       <meta name=”twitter:site” content=”https://ugs.pt/index.html” /> 
       <meta name=”twitter:title” content=”Untitled Game Studios” /> 
       <meta name=”twitter:description” content=”Unleash your inner gamer with Untitled Game Studios (UGS)! We are a Portuguese game development studio crafting innovative and immersive experiences, often with a retro twist.” /> 
       <meta name=”twitter:image” content=”images\1.png” />
-      <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WZSK3VJSZ3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-WZSK3VJSZ3');
-</script>
-    <title>Untitled Game Studios</title>
-    <link rel="stylesheet" href="styles-about-us.css
-    ">
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-      crossorigin="anonymous"
-    />
-    <link href="https://fonts.googleapis.com/css?family=Bungee&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    
+    <!--FONTS-->
+        <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+          crossorigin="anonymous"
+        />
+        <link href="https://fonts.googleapis.com/css?family=Bungee&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+  
+      
 
-    <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
-<link href="images\webclip.png" rel="apple-touch-icon">
-<!--=============== REMIXICONS ===============-->
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/starter-template/">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link rel="stylesheet" href="/Styles.css">
+
+    <link href="/bootstrap.min.css" rel="stylesheet">
+
+    
+
+    <!--=============== REMIXICONS ===============-->
 <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
-</head>
-<header class="header">
-   <nav class="nav container">
-      <div class="nav__data">
-         <a href="index.html" class="nav__logo">
-            <img src="https://ugs.pt/images/Logo_8.png" alt="Untitled Game Studios Logo">
-         </a>
-         
-         <div class="nav__toggle" id="nav-toggle">
-            <i class="ri-menu-line nav__burger show-icon"></i>
-            <i class="ri-close-line nav__close show-icon"></i>
-         </div>
-      </div>
- 
-      <!--=============== NAV MENU ===============-->
-      <div class="nav__menu" id="nav-menu">
-         <ul class="nav__list">
-            <li><a href="https://ugs.pt/about-us.html" class="nav__link">About Us</a></li>
- 
-            <!--=============== DROPDOWN 1 ===============-->
-            <li class="dropdown__item">
-               <div class="nav__link">
-                  Our Games <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-               </div>
- 
-               <ul class="dropdown__menu">
-                  <li>
-                     <a href="https://ugs.pt/#Our-Games" class="dropdown__link">
-                         Eksauria
-                     </a>                          
-                  </li>
- 
-                  <li>
-                     <a href="https://ugs.pt/#Our-Games" class="dropdown__link">
-                         Redrun
-                     </a>
-                  </li>
- <li>
-                  <!--=============== DROPDOWN SUBMENU ===============-->
-                  <li class="dropdown__subitem">
-                     <div class="dropdown__link">
-                         Droian <i class="ri-add-line dropdown__add"></i>
-                     </div>
- 
-                     <ul class="dropdown__submenu">
-                        <li>
-                           <a href="Press-Droian.html" class="dropdown__sublink">
-                               Press Page
-                           </a>
-                        </li>
- 
-                        <li>
-                           <a href="Droian.html" class="dropdown__sublink">
-                               Promo Page
-                           </a>
-                        </li>
- 
-                     </ul>
-                  </li>
-               </ul>
-            </li>
- 
-            <!--=============== DROPDOWN 2 ===============-->
-            <li class="dropdown__item">
-               <div class="nav__link">
-                  Socials <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-               </div>
- 
-               <ul class="dropdown__menu">
-                  <li>
-                     <a href="https://discord.gg/xYMhPRAJS7" class="dropdown__link">
-                         Discord
-                     </a>                          
-                  </li>
- 
-                  <li>
-                     <a href="https://www.youtube.com/channel/UCYgFr56yoNcHm0ljVc4FilA" class="dropdown__link">
-                         Youtube
-                     </a>
-                  </li>
- 
-                  <li>
-                     <a href="https://ugs.itch.io" class="dropdown__link">
-                         Itch.io
-                     </a>
-                  </li>
-               </ul>
-            </li>
- 
-            <li><a href="https://store.steampowered.com/app/3256060/Droian/" class="nav__link twitch">Wishlist Droian</a></li>
-         </ul>
-      </div>
-   </nav>
- </header>
-<body>
-    <div class="true-body">
-        <section class="hero">
-        <div class="team-hero-banner">
-            <div class="hero-text-wrapper">
-                <h1>Meet Untitled Game Studios</h1> <p>United by Friendship, Driven by Passion: Focused on the Game</p>
-            </div>
-        </div>
-    </section>
-    <section class="journey">
-        <div class="journey-content-wrapper">
-         <h1>The Untitled Journey</h1>
-            <div class="row-content-wrapper">
-                <img src="images\2.png" alt="The Poster for our alpha/proof of concept Eksauria. A Retro style RPG.">
-                <div class="journey-text-wrap"><p>Our journey kicked off with Kaado and Rick, two friends navigating the seas of game development during their Masters. Fed up with lacklustre group dynamics, they made a pact. Enter stage right: Satan, Rick's mysterious film school buddy. The trio joined forces, and soon, Eksauria's alpha was on the horizon, and their ambitions reached for the stars.</p></div>
-            </div>
-            <div class="row-content-wrapper redrun-wrap">
-               <div class="journey-text-wrap"><p>A teacher's decree rocked their world - they weren't just making a game, they needed a brand! Cue the panic! Rick and Satan turned to Roxie, the branding whiz and Rick's partner-in-crime, studying Marketing. In the midst of café brainstorming, clarity struck. "Why not Untitled?" they pondered. "So we can focus on the game." And just like that, Untitled Game Studios was born.
-                </p></div>
-                <img src="images\3.png" alt="The bloody poster for Redrun, featuring the red vest boss on the cover servicing undead realness">
-                
-            </div>
-            <div class="row-content-wrapper">
-                <img src="images\1.png" alt="The Droian poster in it's full glory, with a big moon in the background with evil metal claws coming from behind it and I.A.N, our main hero bot standing proud in front.">
-                <div class="journey-text-wrap"><p>Amidst life's curveballs - from Satan's lost furry friend to Roxie's family battles with Covid and cancer - our bond only grew stronger. Untitled Game Studios stood tall, a testament to our unbreakable spirit and dedication.  Through thick and thin, one thing holds true: we're not just a game studio. We're a force to be reckoned with, driven by passion, innovation, and the firm belief that together, we'll make our game dreams a reality.
-                </p></div>
-            </div>
+  </head>
 
-        </div>
-    </section>
-    <section class="focus-on-the-game">
-      <div class="focus-container">
-         <img src="images\GrayGamingYouTubeChannelArt-ezgif.com-optimize.gif" alt="A animated Gif done by our Pixel Boy of all of us in our character sprites. Satan has a long cape and scroll, Roxie has Nikita on her lap, Rick has magic pixel glasses and Kaado has a Nintendo power glove.">
-      </div>
-      <p>Retro-fueled gaming wonders: where pixels and nostalgia collide.</p>
-      <div class="focus-logos">
-      <div class="focus-btn"><a href="https://store.steampowered.com/app/3256060/Droian/"><img src="images\Logo_12.png"></a></div>
-      <div class="focus-btn"><a href="https://ugs.itch.io"><img src="images\Button.png"></a></div>
-      </div>
-    </section>
-    <section class="team-ind-about">
-      <div class="team-general-wrapper">
-         <div class="team-imgs-wrapper">
-            <img src="images\kaadomov.gif" class="team-gif" alt="Gif of Kaado's sprite with the nintendo super glove.">
-            <a href="https://www.instagram.com/kaadoig/"><img class="team-pic" src="images\Kaado.png" alt="A real life picture of Kaado a beardful man with mysterious sunglasses."></a>
-         </div>
-         <div class="team-text-wrapper">
-            <h2>"Gotta catch them all, those f*ckin Koroks!" 🌱</h2>
-            <p>🎯 Level 99 Programmer<br>
-               🕹️ Master of Business & Management<br>
-               🎂 Level 30<br>
-               💻 Proficient in All Platforms<br>
-               🧠 Great Teacher & Mentor<br><br>
-               Meet Kaado, our formidable programmer and business whiz. With a fiery passion for gaming and an unrivalled ability to tame any code, Kaado is your go-to guru for all things programming. Don't be fooled by his hatred for Koroks; his skills are second to none. Whether it's designing intricate systems or turning wild ideas into epic gaming realities, Kaado does it all. </p>
+  <body class="text-bg-dark bg-black">
 
-         </div>
-      </div>
-      <div class="team-general-wrapper">
-         <div class="team-imgs-wrapper">
-            <img src="images\rickmov.gif" class="team-gif-rick" alt="Rick's Character sprite with the magic pixel glasses.">
-            <a href="https://www.instagram.com/lossantosjohn/"><img class="team-pic" src="images\rick.png" alt="A real life picture of Rick a curly haired, goatee wearing gentleman."></a>
-         </div>
-         <div class="team-text-wrapper">
-            <h2>"I'm something of an artist myself." 🎨</h2>
-            <p>🎭 Level 99 Artist<br>
-               🎨 Master of Pixel Art & Animation<br>
-               🎂 Level 27<br>
-               😄 Dad Joke Extraordinaire<br>
-               🕹️ Horror Gaming Enthusiast<br><br>
-               Meet Rick, also known as Pixel boy. With an insatiable love for Spiderman and all things meme-worthy, he brings his artistic flair to every creation. Since his teenage years, Rick has been exploring various art forms. His mastery in pixel art and animation adds a unique touch to our games. When he's not crafting vibrant visuals, you'll find him spreading joy with his collection of dad jokes and memes.</p>
-
-         </div>
-      </div>
-      <div class="team-general-wrapper">
-         <div class="team-imgs-wrapper">
-            <img src="images\gabimov (2).gif" class="team-gif-satan" alt="Satan's character sprite with the big Scroll and dramatic cape.">
-            <a href="https://www.instagram.com/wullfr/"><img class="team-pic" src="images\satan.png" alt="A real life picture of Satan looking a little tired with has long black hair and mustache and beard combo."></a>
-         </div>
-         <div class="team-text-wrapper">
-            <h2>"Wherever I go, the wind follows, and the wind smells like rain." 🌧️</h2>
-            <p>📚 Level 99 Wordsmith<br>
-               🗡️ Master of Fantastical Lore<br>
-               🎂 Level 28<br>
-               🎶 Metal Music Historian<br>
-               🎤 Masterful Sound Designer<br><br>
-               Meet Gabi, also known as Satan or Character Killer. With a heart steeped in fantasy and a penchant for all things gothic, Gabi weaves captivating tales that transport you to otherworldly realms. A prolific writer, he has penned countless novels, conjuring immersive lore. As a brilliant sound designer, he crafts mesmerizing audio experiences that add depth to every game.</p>
-
-         </div>
-      </div>
-      <div class="team-general-wrapper">
-         <div class="team-imgs-wrapper">
-            <img src="images\roxiemov.gif" class="team-gif roxie-gif" alt="Roxie's character sprite with Nikita on her lap.">
-            <a href="https://www.instagram.com/roxie0strawberry/"><img class="team-pic" src="images\rox.png" alt="A real life picture of Roxie with a Deadpool comic in the background and with her wearing big round glasses that show the comic through them."></a>
-         </div>
-         <div class="team-text-wrapper">
-            <h2>"Everyone is entitled to two, aren't they? This is me other one." 👴 </h2>
-            <p>💻 Level 99 Marketing Maven<br>
-               🎨 Master of Design & Development<br>
-               🎂 Level 28<br>
-               🐾 Doggo Daughter: Nikita<br>
-               🎵 Music Nerd Extraordinaire<br><br>
-               Meet Roxie, our beloved Marketing Gal, and the ultimate Beatlemaniac! With an undying love for music and an unquenchable thirst for design, she rocks every aspect of the game. Since her early teens, Roxie has been shaping digital realms with her marketing prowess, blogs, and artistic flair in design and web development.</p>
-
-         </div>
-      </div>
-    </section>
-    <section id="Socials" class="Social-media">
-      <div class="title-socials">
-        <h1 class="h2-socials">Socials</h1>
-      </div>
-      <div class="icon-container">
-      <div class="icon-row">
-        <a href="https://www.twitch.tv/untitledgamestudios"><img src="images\Vector.png" alt="Twitch icon" class="icon"></a>
-        <a href="https://discord.gg/xYMhPRAJS7"><img src="images\Vector (1).png" alt="Discord icon"class="icon"></a>
-        <a href="https://instagram.com/untitledgamestudios"><img src="images\Vector (2).png" alt="Instagram icon"class="icon"></a>
-        <a href="https://www.youtube.com/channel/UCYgFr56yoNcHm0ljVc4FilA"><img src="images\Subtract.png" alt="Youtube icon"class="icon"></a>
-        <a href="https://tiktok.com/@untitledgamestudios"><img src="images\Shape.png" alt="Tiktok Icon"class="icon"></a>
-        <a href="https://twitter.com/Ugs_studio"><img src="images\Combined-Shape.png" alt="Twitter Icon"class="icon"></a>
-        <a href="https://www.facebook.com/ugamestudios"><img src="images\Combined-Shape (1).png" alt="Facebook Icon"class="icon"></a>
-      </div>
-    </div>
-    </section>
-    <section id="Mission" class="Mission">
-      <div class="mission-wrapper">
-         <div class="mission-img-wrapper">
-            <img src="https://ugs.pt/images/Logo_8.png" loading="lazy" alt="UGS logo"> 
-         </div>
-         <div class="mission-text-wrapper">
-            <h1>Our Mission</h1>
-            <p>Untitled Game Studio is on a mission to redefine the gaming experience with a firm commitment to authenticity and player satisfaction. Our studio shuns loot boxes, pay-to-win mechanics, and uninspiring narratives. Instead, we prioritize immersive storylines, exhilarating exploration, and, above all, pure unadulterated fun. We firmly believe that when you invest in our games, you deserve the complete package, not just a fraction of it. </p>
-         </div>
-      </div>
-    </section>
-    <section id="mail-discord-plug" class="mail-discord-plug">
-      <div class="mail-wrapper-general">
-         <div class="mail-text-wrapper">
-            <h1>Join the untitled fam</h1>
-            <p>Be the first to know when big news is announced and get exclusive discounts, Free DLCs and promotions.</p>
-         </div>
-         <div class="mail-button-wrapper">
-            <div class="Button-mail"><a href="https://discord.gg/wvyWGRnCn5">Discord</a></div>
-            <div class="Button-mail"><a href="https://forms.gle/y1Xv5aL6R5yoNHA77">Mailing list</a></div>
-   
-         </div>
-      </div>
-   
-    </section>
-    <section id="Donations" class="Donations">
-      <div class="Donations-wrapper">
-         <div class="Donations-title-wrapper"><h1>Support our Games</h1></div>
-         <div class="donation-logo-wrapper">
-            <a href="https://ko-fi.com/untitledgamesstudios" target="_blank" class="w-inline-block"><img src="images/Logo.png" loading="lazy" alt="Ko-fi logo" class="logo-2"></a>
-            <a href="https://www.redbubble.com/people/UGSstudios/shop" target="_blank" class="w-inline-block"><img src="images/Logo_2.png" loading="lazy" alt="Redbubble Logo" class="logo-2"></a>
-            <a href="https://patreon.com/Untitledgamestudios?utm_medium=clipboard_copy&amp;utm_source=copyLink&amp;utm_campaign=creatorshare_creator&amp;utm_content=join_link" target="_blank" class="w-inline-block"><img src="images/Logo_1.png" loading="lazy" alt="Logo Patreon" class="logo-2"></a>
-         </div>
-      </div>
-    </section>
-<!--END OF WEBSITE-->
-</div>
-<section id="Footer">
-  <div class="footer">
-  <div class="footer-information">
-  <div class="footer-logo"><img src="https://ugs.pt/images/Logo_8.png" loading="lazy" alt="UGS logo"> 
-  </div>
-  <div class="contact-us-column">
-       <h3 class="links-heading">Contact Us </h3>
-    <a href="mailto:untitledgamestudios@gmail.com" class="contact-email-ugs">
-          <div class="email">untitledgamestudios@gmail.com</div>
+    <header>
+      <nav class="navbar-dark sticky-top navbar navbar-expand-lg bg-black">
+        <div class="container-fluid">
+          <a class="navbar-brand col-lg-3 me-0" href="#">
+            <img src="https://ugs.pt/images/Logo_8.png" style="max-width: 140px; min-height: 85px;" alt="Untitled Game Studios Logo">
           </a>
-  </div>
-  <div class="Links-column">
-       <h3 class="links-heading"> Find us </h3>
-   <ul class="Social-links">
-    <a href="https://discord.gg/xYMhPRAJS7"class="contact-email-ugs">Discord</a>
-    <a href="https://www.twitch.tv/untitledgamestudios"class="contact-email-ugs">Twitch</a>
-    <a href="https://ugs.itch.io/"class="contact-email-ugs">Itch.io</a>
-   </ul>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse d-lg-flex collapse" id="navbarsExample11">
+            <ul class="navbar-nav col-lg-8 justify-content-lg-center">
+              <li class="me-3 nav-item">
+                <a class="nav-link nav-item" href="https://ugs.pt/about-us.html">ABOUT US</a>
+              </li>
+              <li class=" me-3 nav-item">
+                <a class="nav-link" href="https://ugs.pt/DnD.html">D&D</a>
+              </li>
+              <li class=" me-3 nav-item">
+                <a class="nav-link" href="https://ugs.pt/community.html">THE COMMUNITY</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#"  role="button" aria-expanded="false" data-bs-toggle="dropdown">OUR GAMES</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://ugs.pt/Droian.html">DROIAN</a></li>
+                  <li><a class="dropdown-item" href="https://ugs.pt/Keep-wiping.html">KEEP WIPING</a></li>
+                  <li><a class="dropdown-item" href="https://ugs.pt/Eksauria.html">EKSAURIA</a></li>
+                  <li><a class="dropdown-item" href="https://ugs.pt/redrun.html">REDRUN</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="d-lg-flex col-lg-3 justify-content-lg-end me-5 pe-3">
+              <a class="btn btn-light btn-lg btn-nav-ugs" href="https://store.steampowered.com/app/3256060/Droian/" role="button">WISHLIST DROIAN</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+   <main>
+
+    <div class="container-fluid text-center">
+      <img class="img-fluid" src="Images\Hero bannerdaboutus.gif">
+
+    </div>
+
+    
+  <section id="video" class="container-fluid p-5 px-5">
+    <div class="text-center py-3">
+          <h1>The Untitled Journey</h1>
+          <p class="mx-auto px-auto lh-1">We're nothing more then 4 friends making games together, hoping to, one day, make a living from making fun things for people to play and enjoy.<br> Wanna know more about our journey, watch below.</p>
        </div>
-  <div class="about">
-       <h3 class="links-heading"> About us </h3>
-  <ul class="about-links">
-    <a href="https://ugs.pt/about-us.html"class="contact-email-ugs">The Team</a>
-    <a href="https://ugs.pt/#Our-Games"class="contact-email-ugs">Our Games</a>
-    <a href="https://www.redbubble.com/people/UGSstudios/shop"class="contact-email-ugs">Our Merch</a>
-  </ul>
+    <div class="row align-items-center">
+       
+       <div class="col-xl text-center ratio ratio-16x9 " style="max-width:1000px ;">
+        <iframe  src="https://www.youtube.com/embed/kO2XV_StIck?si=vYV6OCdeMYy0SlTi" title="YouTube video player" allowfullscreen></iframe>
        </div>
-  </div>
-  
-  <div class="copyright-info">
-    <p class="copyright-text"> Copyright © 2024 UNTITLED GAME STUDIOS </p>
-  </div>
-  
-  </div>
+
+       <div class="col-xl">
+        
+        <div class="row">
+            <div class="col-12">
+                <!-- Timeline Area-->
+                <div class="apland-timeline-area">
+                    <!-- Single Timeline Content-->
+                    <div class="single-timeline-area">
+                        <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+                            <p class="text-end">Near Future and Far Future</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+                                    <div class="timeline-icon"><i class="fa fa-address-card" aria-hidden="true"></i></div>
+                                    <div class="timeline-text">
+                                        <h6>Droian Free Demo + Full game release</h6>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                                    <div class="timeline-icon"><i class="fa fa-archive" aria-hidden="true"></i></div>
+                                    <div class="timeline-text">
+                                        <h6>More Game Jam games</h6>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInLeft;">
+                                    <div class="timeline-icon"><i class="fa fa-address-book" aria-hidden="true"></i></div>
+                                    <div class="timeline-text">
+                                        <h6>Full launch of Eksauria and Redrun</h6>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Timeline Content-->
+                    <div class="single-timeline-area">
+                        <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+                            <p>2020-2025</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+                                    <div class="timeline-icon"><i class="fa fa-briefcase" aria-hidden="true"></i></div>
+                                    <div class="timeline-text">
+                                        <h6>Made Redrun for fun</h6>
+                                        <p>It was Halloween and we had an idea so we wanted to see it done.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                                    <div class="timeline-icon"><i class="fa fa-desktop" aria-hidden="true"></i></div>
+                                    <div class="timeline-text">
+                                        <h6>Paused Eksauria Development</h6>
+                                        <p>We had been 2 years already and it wasn't the right project for us at that moment.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                              <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                                  <div class="timeline-icon"><i class="fa fa-desktop" aria-hidden="true"></i></div>
+                                  <div class="timeline-text">
+                                      <h6>Started Droian Development</h6>
+                                      <p>With a realistic scope and great story we started making the game in 2022.</p>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <!-- Single Timeline Content-->
+                    <div class="single-timeline-area">
+                        <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+                            <p class="text-end">Beginning of time-2020</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+                                    <div class="timeline-icon"><i class="fa fa-id-card" aria-hidden="true"></i></div>
+                                    <div class="timeline-text">
+                                        <h6>We were born</h6>
+                                        <p class="lh-1">2 in continental Portugal, one in a Island and another in the americas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                                    <div class="timeline-icon"><i class="fa fa-desktop" aria-hidden="true"></i></div>
+                                    <div class="timeline-text">
+                                        <h6>We grew up to be 4 nerds</h6>
+                                        <p>All of us grew up loving video games, technology and Culture.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInLeft;">
+                                    <div class="timeline-icon"><i class="fa fa-picture-o" aria-hidden="true"></i></div>
+                                    <div class="timeline-text">
+                                        <h6>Met in College</h6>
+                                        <p>Satan, Rick and Roxie met in College, then met Kaado in their Game Design Masters.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+ 
   </section>
-  <script src="script-index.js"></script>
-  <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+
+  
+    
+ 
+
+<div class="container-md text-center">
+
+  <h1 class="pb-5">The Untitled crew</h1>
+
+
+  <div class="card text-center">
+    <div class="card-header ">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true" style="--bs-nav-link-color: var(--main-yellow);">Programming</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="mkt-tab" data-bs-toggle="tab" data-bs-target="#mkt-tab-pane" type="button" role="tab" aria-controls="mkt-tab-pane" aria-selected="false" style="--bs-nav-link-color: var(--main-yellow);">Marketing</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="art-tab" data-bs-toggle="tab" data-bs-target="#art-tab-pane" type="button" role="tab" aria-controls="art-tab-pane" aria-selected="false" style="--bs-nav-link-color: var(--main-yellow);">Art & Design</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="story-tab" data-bs-toggle="tab" data-bs-target="#story-tab-pane" type="button" role="tab" aria-controls="story-tab-pane" aria-selected="false" style="--bs-nav-link-color: var(--main-yellow);">Story & Sound</button>
+        </li>
+        
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+
+          <div class="row p-3">
+            <div class="col-lg">
+               <a href="https://www.instagram.com/kaadoig/"><img class="img-fluid" src="Images\kaadogif.gif" alt="A real life picture of Kaado a beardful man with mysterious sunglasses."></a>
+            </div>
+            <div class="col-lg">
+               <h2 class="py-3">"Gotta catch them all, those f*ckin Koroks!" 🌱</h2>
+               <p class="lh-1 text-start">🎯 Level 99 Programmer<br>
+                  🕹️ Master of Business &amp; Management<br>
+                  💻 Proficient in All Platforms<br>
+                  🧠 Great Teacher &amp; Mentor<br><br>
+                  Meet Kaado, our formidable programmer and business whiz. With a fiery passion for gaming and an unrivalled ability to tame any code, Kaado is your go-to guru for all things programming. Don't be fooled by his hatred for Koroks; his skills are second to none. Whether it's designing intricate systems or turning wild ideas into epic gaming realities, Kaado does it all. </p>
+   
+            </div>
+         </div>
+
+        </div>
+        <div class="tab-pane fade" id="mkt-tab-pane" role="tabpanel" aria-labelledby="mkt-tab" tabindex="1">
+         
+          <div class="row p-3">
+            <div class="col-lg">
+               <a href="https://www.instagram.com/roxie0strawberry/"><img class="img-fluid" src="Images\roxiegif.gif" alt="A real life picture of Roxie with Deadpool in the background."></a>
+            </div>
+            <div class="col-lg">
+               <h2 class="py-3">"Everyone is entitled to two, aren't they? This is me other one." 👴</h2>
+               <p class="lh-1 text-start">💻 Level 99 Marketing Maven<br>
+                🎨 Master of Design & Development<br>
+                🐾 Doggo Daughter: CEO Nikita<br>
+                🎵 Music Nerd Extraordinaire<br><br>
+                Meet Roxie, our beloved Marketing Gal, and the ultimate Beatlemaniac! With an undying love for music and an unquenchable thirst for design, she rocks every aspect of the game. Since her early teens, Roxie has been shaping digital realms with her marketing prowess, blogs, and artistic flair in design and web development. </p>
+   
+            </div>
+         </div>
+        
+        </div>
+        <div class="tab-pane fade" id="art-tab-pane" role="tabpanel" aria-labelledby="art-tab" tabindex="2">
+
+          <div class="row p-3">
+            <div class="col-lg">
+               <a href="https://www.instagram.com/lossantosjohn/"><img class="img-fluid" src="Images\rickgif.gif" alt="A real life picture of Rick looking evil cosplaying the purple man."></a>
+            </div>
+            <div class="col-lg">
+               <h2 class="py-3">"I'm something of an artist myself." 🎨</h2>
+               <p class="lh-1 text-start">🎭 Level 99 Artist<br>
+                🎨 Master of Pixel Art & Animation<br>
+                😄 Dad Joke Extraordinaire<br>
+                🕹️ Horror Gaming Enthusiast<br><br>
+                Meet Rick, also known as Pixel boy. With an insatiable love for Spiderman and all things meme-worthy, he brings his artistic flair to every creation. Since his teenage years, Rick has been exploring various art forms. His mastery in pixel art and animation adds a unique touch to our games. When he's not crafting vibrant visuals, you'll find him spreading joy with his collection of dad jokes and memes. </p>
+   
+            </div>
+         </div>
+        
+        </div>
+        <div class="tab-pane fade" id="story-tab-pane" role="tabpanel" aria-labelledby="story-tab" tabindex="3">
+          
+          <div class="row p-3">
+            <div class="col-lg">
+               <a href="https://www.instagram.com/wullfr/"><img class="img-fluid" src="Images\Satangif.gif" alt="A real life picture of Satan Himself"></a>
+            </div>
+            <div class="col-lg">
+               <h2 class="py-3">"Wherever I go, the wind follows, and the wind smells like rain." 🌧️</h2>
+               <p class="lh-1 text-start">📚 Level 99 Wordsmith<br>
+                🗡️ Master of Fantastical Lore<br>
+                🎶 Metal Music Historian<br>
+                🎤 Masterful Sound Designer<br><br>
+                Meet Gabi, also known as Satan. With a heart steeped in fantasy and a penchant for all things gothic, Gabi weaves captivating tales. A prolific writer, he has penned countless novels, conjuring immersive lore. As a brilliant sound designer, he crafts audio experiences that add depth to every game. </p>
+   
+            </div>
+         </div>
+        
+        </div>
+      </div>
+  </div>
+  
+
+
+</div>
+  
+
+
+    
+<div class="container-fluid text-center mt-3">
+  <h2>The Untitled Family</h2>
+  <div class="Discord-win-pc"><widgetbot 
+    server="742052327762034769"
+    channel="760949504362676286"
+    width="800"
+    height="450"></widgetbot>
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script></div>
+
+<div class="container my-4">
+  <a href="https://bsky.app/profile/untitledgamestudio.bsky.social" class="mx-2"><img class="social-img img-fluid py-4" src="Images\bluesky90´slooking button.png"></a> 
+  <a href="https://mastodon.social/@untitledgamestudios" class="mx-2"><img class="social-img img-fluid py-4" src="Images\mastodon90´slooking button.png" ></a>
+  <a href="https://instagram.com/untitledgamestudios" class="mx-2"><img class="social-img img-fluid py-4" src="Images\instagram90´slooking button.png" ></a>
+  <a href="https://www.youtube.com/channel/UCYgFr56yoNcHm0ljVc4FilA" class="mx-2"><img class="social-img img-fluid py-4" src="Images\youtube90´slooking button.png" ></a>
+  <a href="https://twitter.com/Ugs_studio" class="mx-2"><img class="social-img img-fluid py-4" src="Images\Twitter90´slooking button.png" ></a>
+  <a href="https://www.linkedin.com/company/untitledgamestudios/?viewAsMember=true" class="mx-2"><img class="social-img img-fluid py-4" src="Images\linkedin90´slooking button.png" ></a>
+  <a href="https://untitledgamestudios.blogspot.com" class="mx-2"><img class="social-img img-fluid py-4" src="Images\blogger90´slooking button.png" ></a>
+  <a href="https://www.facebook.com/ugamestudios" class="mx-2"><img class="social-img img-fluid py-4" src="Images\facebook90´slooking button.png" ></a>
+  <a href="https://discord.gg/wvyWGRnCn5" class="mx-2"><img class="social-img img-fluid py-4" src="Images\Discord90´slooking button.png" ></a>
+
+</div>
+
+</div>
+
+<div class="container-sm">
+  <div class="flex-wrap row align-items-center my-4 text-end mx-3">
+    <div class="order-2 col-md-4">
+       <img class="img-fluid" src="https://ugs.pt/images/Logo_8.png" loading="lazy" alt="UGS logo"> 
+    </div>
+    <div class="order-1 col-md-8">
+       <h1>Our Mission</h1>
+       <p>Our studio shuns loot boxes, pay-to-win mechanics, and uninspiring narratives. Instead, we prioritize immersive storylines, exhilarating exploration, and, above all, pure unadulterated fun. We firmly believe that when you invest in our games, you deserve the complete package, not just a fraction of it. </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+
+<div class="embedsocial-hashtag" data-ref="e8a51a071ec01e7f080d862403ae8573593bbf38"> <a class="feed-powered-by-es feed-powered-by-es-slider-img es-widget-branding" href="https://embedsocial.com/social-media-aggregator/" target="_blank" title="Instagram widget"> <img src="https://embedsocial.com/cdn/icon/embedsocial-logo.webp" alt="EmbedSocial"> <div class="es-widget-branding-text">Instagram widget</div> </a> </div> <script> (function(d, s, id) { var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/cdn/ht.js"; d.getElementsByTagName("head")[0].appendChild(js); }(document, "script", "EmbedSocialHashtagScript")); </script>
+
+  </main>
+
+  
+  
+
+
+
+
+
+<script src="/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+    </body>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 mx-4 border-top text-bg-dark bg-black">
+      <p class="col-md-4 mb-0 text-body-secondary">© 2025 Untitled Game Studios</p>
+    
+      <a href="#" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <img src="https://ugs.pt/images/Logo_8.png" style="max-width: 140px; min-height: 85px;" alt="Untitled Game Studios Logo">
+      </a>
+    
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="https://ugs.pt/community.html" class="nav-link px-2 text-body-secondary">CONTACT US</a></li>
+        <li class="nav-item"><a href="https://discord.gg/wvyWGRnCn5" class="nav-link px-2 text-body-secondary">DISCORD</a></li>
+        <li class="nav-item"><a href="https://ugs.itch.io" class="nav-link px-2 text-body-secondary">ITCH.IO</a></li>
+        <li class="nav-item"><a href="https://ugs.pt/about-us.html" class="nav-link px-2 text-body-secondary">ABOUT US</a></li>
+      </ul>
+    </footer>
+    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
 <script>
   kofiWidgetOverlay.draw('untitledgamesstudios', {
     'type': 'floating-chat',
-    'floating-chat.donateButton.text': 'Support Us',
-    'floating-chat.donateButton.background-color': '#fcbf47',
-    'floating-chat.donateButton.text-color': '#323842'
+    'floating-chat.donateButton.text': 'Tip Us',
+    'floating-chat.donateButton.background-color': '#ff1500',
+    'floating-chat.donateButton.text-color': '#ffff'
   });
 </script>
-</body>
+</html>
