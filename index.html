@@ -64,6 +64,21 @@
 
   <body class="text-bg-dark bg-black">
 
+    <amp-consent id="ConsentManager" layout="nodisplay" type="ConsentManager">
+      <script type="application/json">
+        {
+          "postPromptUI": "postPromptUI",
+          "clientConfig": {
+            "cdid": "ca4961945278d",
+            "params": ""
+          }
+        }
+      </script>
+      <div id="postPromptUI">
+         <button on="tap:ConsentManager.prompt()" role="button">Manage privacy settings</button>
+      </div>
+    </amp-consent>
+
     <header>
       <nav class="navbar-dark sticky-top navbar navbar-expand-lg bg-black">
         <div class="container-fluid">
@@ -341,7 +356,7 @@
       </a>
     
       <ul class="nav col-md-4 justify-content-end">
-        <li class="nav-item"><a href="https://ugs.pt/community.html" class="nav-link px-2 text-body-secondary">CONTACT US</a></li>
+        <li class="nav-item"><a href="?cmpscreen" class="cmpfooterlink cmpfooterlinkcmp">Privacy settings</a></li>
         <li class="nav-item"><a href="https://discord.gg/wvyWGRnCn5" class="nav-link px-2 text-body-secondary">DISCORD</a></li>
         <li class="nav-item"><a href="https://ugs.itch.io" class="nav-link px-2 text-body-secondary">ITCH.IO</a></li>
         <li class="nav-item"><a href="https://ugs.pt/about-us.html" class="nav-link px-2 text-body-secondary">ABOUT US</a></li>
