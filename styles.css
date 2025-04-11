@@ -41,7 +41,7 @@ li{
 }
 
 .hero-UGS{
-  background-image: url("images\Five-way playing Among us with viewers!  Special Livestream (1).png");
+  background-image: url("images/Five-way playing Among us with viewers!  Special Livestream (1).png");
   background-position: center;
   background-size: cover;
   order: 2!important;
@@ -52,7 +52,7 @@ li{
 
 @media (max-width:500px) {
   .hero-UGS{
-    background-image: url("images\1.png");
+    background-image: url("images/1.png");
     background-position: center;
     background-size: cover;
   }
@@ -60,7 +60,7 @@ li{
 }
 
 .games-ugs-ani{
-  background-image: url("images\Scarlet in game port2rait.png");
+  background-image: url("images/Scarlet in game port2rait.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -70,14 +70,14 @@ li{
 }
 
 .games-ugs-ani:hover{
-  background-image: url("images\rainerogreportrait sprite .png");
+  background-image: url("images/rainerogreportrait sprite .png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .games-ugs-ani2{
-  background-image: url("images\bigFace1.png");
+  background-image: url("images/bigFace1.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -87,14 +87,14 @@ li{
 }
 
 .games-ugs-ani2:hover{
-  background-image: url("images\MrKlean_wipe4.png");
+  background-image: url("images/MrKlean_wipe4.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .games-ugs-ani3{
-  background-image: url("images\319201592_2499490523553488_1310580596606234053_n.png");
+  background-image: url("images/319201592_2499490523553488_1310580596606234053_n.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -104,14 +104,14 @@ li{
 }
 
 .games-ugs-ani3:hover{
-  background-image: url("images\flying_enemy-export.png");
+  background-image: url("images/flying_enemy-export.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .games-ugs-ani4{
-  background-image: url("images\unnamed.png");
+  background-image: url("images/unnamed.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -121,7 +121,7 @@ li{
 }
 
 .games-ugs-ani4:hover{
-  background-image: url("images\unnamed (1).png");
+  background-image: url("images/unnamed (1).png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
