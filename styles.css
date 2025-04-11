@@ -214,7 +214,7 @@ li{
 }
 
 .thejourney-div{
-  background-image:url("Images/Mysterious Are you Ready Animated Instagram Post.png");
+  background-image:url("images/Mysterious Are you Ready Animated Instagram Post.png");
   background-position: 50% 25% ;
   background-size: cover;
 }
@@ -392,7 +392,7 @@ li{
 /*FOR EKSAURIA PAGE*/ 
 
 .eksauria-bg {
-  background: url("Images/Ice kingdom.png") no-repeat center center fixed;
+  background: url("images/Ice kingdom.png") no-repeat center center fixed;
   background-size: cover;
   color: #fff;
   text-align: center; 
@@ -436,7 +436,7 @@ li{
 /*FOR KEEP WIPING PAGE*/
 
 .keepwiping-bg {
-  background: url("Images/keepwipinbubgfvbles67.gif");
+  background: url("images/keepwipinbubgfvbles67.gif");
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: left bottom;
