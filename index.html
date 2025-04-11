@@ -1,9 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Unleash your inner gamer with Untitled Game Studios (UGS)! We are a Portuguese game development studio crafting innovative and immersive experiences, often with a retro twist. Dive into our world of pixelated perfection and explore Droian, our upcoming sci-fi horror metroidvania!">
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <script src="/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Unleash your inner gamer with Untitled Game Studios (UGS)! We are a Portuguese game development studio crafting innovative and immersive experiences, often with a retro twist.">
+    <meta name="author" content="Untitled Game Studios">
+    <meta name="generator" content="UGS 0.122.0">
+    <title>Untitled Game Studios</title>
+    <link href="images\favicon.png" rel="shortcut icon" type="image/x-icon">
+    <link href="images\webclip.png" rel="apple-touch-icon">
+
+    <meta name="color-scheme" content="light dark">
+
+    <!--SOCIAL MEDIA META DATA-->
     <meta property="og:title" content="Untitled Game Studios" />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://ugs.pt/" />
@@ -11,389 +22,352 @@
       <meta name="twitter:card" content="summary"></meta>
       <meta name=”twitter:site” content=”https://ugs.pt/index.html” /> 
       <meta name=”twitter:title” content=”Untitled Game Studios” /> 
-      <meta name=”twitter:description” content=”Unleash your inner gamer with Untitled Game Studios (UGS)! We are a Portuguese game development studio crafting innovative and immersive experiences, often with a retro twist.” /> 
+      <meta name=”twitter:description” content= ”Unleash your inner gamer with Untitled Game Studios (UGS)! We are a Portuguese game development studio crafting innovative and immersive experiences, often with a retro twist.” /> 
       <meta name=”twitter:image” content=”images\1.png” />
+
       <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WZSK3VJSZ3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-WZSK3VJSZ3"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-  gtag('config', 'G-WZSK3VJSZ3');
-</script>
-    <title>Untitled Game Studios</title>
-    <link rel="stylesheet" href="Styles-index.css">
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-      crossorigin="anonymous"
-    />
-    <link href="https://fonts.googleapis.com/css?family=Bungee&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+        gtag('config', 'G-WZSK3VJSZ3');
+      </script>
+    
+    <!--FONTS-->
+        <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+          crossorigin="anonymous"
+        />
+        <link href="https://fonts.googleapis.com/css?family=Bungee&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+  
+      
 
-    <link href="images\favicon.png" rel="shortcut icon" type="image/x-icon">
-<link href="images\webclip.png" rel="apple-touch-icon">
-<!--=============== REMIXICONS ===============-->
+    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="/bootstrap.min.css" rel="stylesheet">
+
+    <!--=============== REMIXICONS ===============-->
 <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
-</head>
-<header class="header">
-  <nav class="nav container">
-     <div class="nav__data">
-        <a rel="canonical" href="index.html" class="nav__logo">
-           <img src="https://ugs.pt/images/Logo_8.png" alt="Untitled Game Studios Logo">
-        </a>
-        
-        <div class="nav__toggle" id="nav-toggle">
-           <i class="ri-menu-line nav__burger show-icon"></i>
-           <i class="ri-close-line nav__close show-icon"></i>
+
+  </head>
+
+  <body class="text-bg-dark bg-black">
+
+    <header>
+      <nav class="navbar-dark sticky-top navbar navbar-expand-lg bg-black">
+        <div class="container-fluid">
+          <a class="navbar-brand col-lg-3 me-0" href="#">
+            <img src="https://ugs.pt/images/Logo_8.png" style="max-width: 140px; min-height: 85px;" alt="Untitled Game Studios Logo">
+          </a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse d-lg-flex collapse" id="navbarsExample11">
+            <ul class="navbar-nav col-lg-8 justify-content-lg-center">
+              <li class="me-3 nav-item">
+                <a class="nav-link nav-item" href="https://ugs.pt/about-us.html">ABOUT US</a>
+              </li>
+              <li class=" me-3 nav-item">
+                <a class="nav-link" href="https://ugs.pt/DnD.html">D&D</a>
+              </li>
+              <li class=" me-3 nav-item">
+                <a class="nav-link" href="https://ugs.pt/community.html">THE COMMUNITY</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#"  role="button" aria-expanded="false" data-bs-toggle="dropdown">OUR GAMES</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://ugs.pt/Droian.html">DROIAN</a></li>
+                  <li><a class="dropdown-item" href="https://ugs.pt/Keep-wiping.html">KEEP WIPING</a></li>
+                  <li><a class="dropdown-item" href="https://ugs.pt/Eksauria.html">EKSAURIA</a></li>
+                  <li><a class="dropdown-item" href="https://ugs.pt/redrun.html">REDRUN</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="d-lg-flex col-lg-3 justify-content-lg-end me-5 pe-3">
+              <a class="btn btn-light btn-lg btn-nav-ugs" href="https://store.steampowered.com/app/3256060/Droian/" role="button">WISHLIST DROIAN</a>
+            </div>
+          </div>
         </div>
-     </div>
-
-     <!--=============== NAV MENU ===============-->
-     <div class="nav__menu" id="nav-menu">
-        <ul class="nav__list">
-           <li><a rel="canonical" href="https://ugs.pt/about-us.html" class="nav__link">About Us</a></li>
-
-           <!--=============== DROPDOWN 1 ===============-->
-           <li class="dropdown__item">
-              <div class="nav__link">
-                 Our Games <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-              </div>
-
-              <ul class="dropdown__menu">
-                 <li>
-                    <a href="#Eksauria" class="dropdown__link">
-                        Eksauria
-                    </a>                          
-                 </li>
-
-                 <li>
-                    <a href="#Redrun" class="dropdown__link">
-                        Redrun
-                    </a>
-                 </li>
-<li>
-                 <!--=============== DROPDOWN SUBMENU ===============-->
-                 <li class="dropdown__subitem">
-                    <div class="dropdown__link">
-                        Droian <i class="ri-add-line dropdown__add"></i>
-                    </div>
-
-                    <ul class="dropdown__submenu">
-                       <li>
-                          <a rel="canonical" href="Press-Droian.html" class="dropdown__sublink">
-                              Press Page
-                          </a>
-                       </li>
-
-                       <li>
-                          <a rel="canonical" href="Droian.html" class="dropdown__sublink">
-                              Promo Page
-                          </a>
-                       </li>
-
-                    </ul>
-                 </li>
-              </ul>
-           </li>
-
-           <!--=============== DROPDOWN 2 ===============-->
-           <li class="dropdown__item">
-              <div class="nav__link">
-                 Socials <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-              </div>
-
-              <ul class="dropdown__menu">
-                 <li>
-                    <a href="https://discord.gg/xYMhPRAJS7" class="dropdown__link">
-                        Discord
-                    </a>                          
-                 </li>
-
-                 <li>
-                    <a href="https://www.youtube.com/channel/UCYgFr56yoNcHm0ljVc4FilA" class="dropdown__link">
-                        Youtube
-                    </a>
-                 </li>
-
-                 <li>
-                    <a href="https://ugs.itch.io" class="dropdown__link">
-                        Itch.io
-                    </a>
-                 </li>
-              </ul>
-           </li>
-
-           <li><a href="https://store.steampowered.com/app/3256060/Droian/" class="nav__link twitch">Wishlist Droian</a></li>
-        </ul>
-     </div>
-  </nav>
-</header>
-<body>
-    <div class="true-body">
-<section class="hero-banner">
-    <div class="hero-container">
-        <div class="droian-logo-container">
-         <img src="\images\Image_10-p-1080.png" alt="Droian Logo">
+      </nav>
+    </header>
+   <main>
+    <div class="container-xxl text-center m-auto">
+      <div class="row justify-content-center mx-4 base-hero-UGS">
+        <div class="col-2  game-UGS1 ">
+          <a href="#EKSAURIA"> <div class="games-ugs-ani my-5" class="my-3" alt="..."> </div></a>
+          <a href="#REDRUN"> <div class="games-ugs-ani4 my-5" class="my-3" alt="..."> </div></a>
+        </div>
+        <div class="col-6 hero-UGS align-self-center">
+          <div class="UGSHERO-BUTTON">
+          <a href="https://ugs.pt/Droian.html" class="btn btn-lg btn-light fw-bold ">DISCOVER NOW</a></div>
+        </div>
+        <div class="col-2 game-UGS3">
+          <a href="#KEEPWIPING"><div class="games-ugs-ani2 my-5" alt="..."> </div></a>
+          <a href="https://ugs.pt/Droian.html"><div class="games-ugs-ani3 my-5" alt="..."> </div></a>
+        </div>
       </div>
-        <div class="hero-subtext"><p> Explore immersive landscapes, unearth dark secrets, and confront unimaginable nightmares as I.A.N, the valiant little Droid fighting to save humanity. Are you prepared to face the unknown?</p></div>
-        <div class="devbutton">
-         <div class="devbtn"></div>
-         <div class="devtext"><a rel="canonical" href="https://ugs.pt/Droian.html">Discover More</a></div>
+
+    </div>
+    
+    <div class="gap-2 justify-content-center pt-3 dis-tog-ugs">
+      <a href="#EKSAURIA"> <div class="games-ugs-ani game-btn-mob" class="my-3" alt="..."> </div></a>
+      <a href="#REDRUN"> <div class="games-ugs-ani4 game-btn-mob" class="my-3" alt="..."> </div></a>
+      <a href="#KEEPWIPING"><div class="games-ugs-ani2 game-btn-mob" class="my-3" alt="..."> </div></a>
+      <a href="https://ugs.pt/Droian.html"><div class="games-ugs-ani3 game-btn-mob" class="my-3" alt="..."> </div></a>    
+      
+    </div>
+
+    
+    
+    <div class="container py-5" >
+      <div class="p-5 mb-4 rounded-3 thejourney-div">
+        <div class="container-fluid py-5 rounded-3" style="background-color: #00000080;">
+          <h1 class="display-5 fw-bold">Our Pixelated Journey</h1>
+          <p class="col-md-8 fs-3 lh-sm">Step into the pixelated world of Untitled Game Studio, a cozy and chaotic haven crafted by four passionate friends.<br> With their shared love for video games, this tight-knit crew set out to create an Indie game studio that encapsulates the joy and excitement they experienced in their childhood gaming adventures.</p>
+          <h1><a href="https://ugs.pt/about-us.html" class="btn btn-light btn-lg" type="button">More About us</a></h1>
+        </div>
+      </div>
+    </div> 
+
+    <section id="Videos" class="press-video-playlists">
+      <h1 class="playlist-title text-center">What We've been up to</h1>
+      
+      <!-- Add a placeholder for the Twitch embed -->
+    <div id="twitch-embed" class="text-center  container ratio ratio-16x9">
+
+    <!-- Load the Twitch embed script -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element. -->
+    <script type="text/javascript">
+      var embed = new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "untitledgamestudios",
+        layout: "video",
+        autoplay: false,
+        
+      });
+
+      embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
+        var player = embed.getPlayer();
+        player.play();
+      });
+    </script>
+   </div>
+   
+      <div class="playlist-container pt-5">
+        <div class="playlist-subdiv ">
+      <div class="Playlist-embed-left embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/videoseries?si=lW8aIl5tpFDUb5-2&amp;list=PL490bbVB6rzDuyvSrYhZbneyLpf0qOu0N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="Playlist-embed-centre embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?si=4pD8bhWPyb4ujm7-&amp;list=PL490bbVB6rzAgSr2-y9A8Km2bHwDLKbNa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div> 
+      <div class="Playlist-embed-right embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?si=TiUDpauQe-8auc3y&amp;list=PL490bbVB6rzB_UgLfBWW7jVXR2s7NegSj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+      </div>
+    </section>
+
+
+    <div class="container text-center justify-content-center pt-5 embed-responsive embed-responsive-21by9 align-items-center hideonmobile">
+      <iframe class="embed-responsive-item" src="https://store.steampowered.com/widget/3256060/" frameborder="0" width="646" height="190" allowTransparency="true" ></iframe>
+
+     </div>
+
+
+
+
+
+    <section class="focus-on-the-game container">
+      <div class="focus-container justify-content-center text-center">
+         <img src="images\GrayGamingYouTubeChannelArt-ezgif.com-optimize.gif" alt="A animated Gif done by our Pixel Boy of all of us in our character sprites. Satan has a long cape and scroll, Roxie has Nikita on her lap, Rick has magic pixel glasses and Kaado has a Nintendo power glove."class="my-auto mx-auto pb-3 img-fluid " style="max-width: 1069px; min-height:30px; width: 100%; max-height: 600px;">
+
+         <img src="Images\CHECKOUTOURGAMESBANNER.gif" style="max-width: 1069px; min-height:30px; width: 100%; max-height: 600px;" class="mb-5">
+         
+      </div>
+    </section>
+    <section class="container-sm">
+    <div id="DROIAN" class="row mb-3 mx-auto px-5 align-items-center">
+      <div class="col-md-4 themed-grid-col">
+        <img src="images\1.png" alt="The Droian poster in it's full glory, with a big moon in the background with evil metal claws coming from behind it and I.A.N, our main hero bot standing proud in front." class="my-auto mx-auto pb-3 img-fluid " style="max-width: 1069px; min-height:30px; width: 100%; max-height: 600px;">
+      </div>
+      <div class="col-md-8 themed-grid-col">
+        <div id="Droian" class="">
+          <h1 class="">Droian</h1>
+          <p class="lh-1">Status: In Development - Available for Wishlisting</p>
+          <p class="lh-1">Embark on a perilous journey as I.A.N., a courageous little Droid, fighting to save humanity from self-destruction. In a galaxy teetering on the brink of collapse, unearth the secrets of a shape-shifting substance with the power to shape survival.</p>
+          <div class="row row-cols-auto align-items-center">
+            <div class="col"><a class="btn btn-danger" rel="canonical" href="https://store.steampowered.com/app/3256060/Droian/">WISHLISH NOW</a></div>
+          
+            <div class="col my-1"><a class="btn btn-light" rel="canonical" href="https://ugs.pt/Droian.html">Press Kit</a></div>
+          <div class="col my-1"><a class="btn btn-light" rel="canonical" href="https://ugs.itch.io/droian">Itch.io</a></div>
+          
+          <div class="col my-1"><a class="btn btn-light" rel="canonical" href="https://ugs.pt/Droian.html">More Info</a></div>
        </div>
+      </div>
     </div>
-</section>
-<section class="our-journey">
-   <div class="journey-text">
-      <h1>Our Pixelated Journey</h1>
-      <p>Step into the pixelated world of Untitled Game Studio, a cozy and chaotic haven crafted by four passionate friends who crossed paths during their master's journey. With their shared love for video games, this tight-knit crew set out to create an Indie game studio that encapsulates the joy and excitement they experienced in their childhood gaming adventures. Thus, Untitled Game Studio came to life, fueled by a harmonious blend of nostalgia, creativity, and a touch of madness.</p>
-   </div>
-</section>
-<section id="Team" class="Team-cards">
-   <div class="title-team">
-     <h1 class="h2-team">The Untitled Team</h1>
-   </div>
-   <div class="pictures">
-     <div class="card">
-     <div class="image-wrapper-2">
-     <a href="https://www.instagram.com/kaadoig/" target="_blank" class="w-inline-block"><img src="images\Kaado.png" loading="eager" alt="A beautiful black and picture of our programmer Kaado"class="kaado"></a>
-     </div>
-     <div class="info">
-     <div class="name-team">Kaado</div>
-     <div class="aka-1">AKA The Programmer</div>
-     </div>
-     </div>
-     <div class="card">
-     <div class="image-wrapper-2">
-     <a href="https://www.instagram.com/lossantosjohn/" target="_blank" class="w-inline-block"><img src="images/rick.png" loading="eager" alt="Picture of a our pixel artist looking scary dressed as the purple man himself, Kilgrave "  class="kaado"></a>
-     </div>
-     <div class="info">
-     <div class="name-team">Rick</div>
-     <div class="aka-1">AKA Pixel Boy</div>
-     </div>
-     </div>
-     <div class="card">
-     <div class="image-wrapper-2">
-     <a href="https://www.instagram.com/wullfr/" target="_blank" class="w-inline-block"><img src="images/satan.png" loading="eager" alt="Satan, our narrative writer looking contemplative and cool in his usual goth style." class="kaado"></a>
-     </div>
-     <div class="info">
-     <div class="name-team">Satan</div>
-     <div class="aka-3">AKA Character Killer</div>
-     </div>
-     </div>
-     <div class="card">
-     <div class="image-wrapper-2">
-     <a href="https://www.instagram.com/roxie0strawberry/" target="_blank" class="link-block-2 w-inline-block"><img src="images\rox.png" loading="eager" alt="Picture of our marketing gal and fellow dev Roxie with her fav Deadpool comics behind her."class="kaado"></a>
-     </div>
-     <div class="info">
-     <div class="name-team">Roxie</div>
-     <div class="aka-1">AKA Marketing Gal</div>
-     </div>
-     </div>
-     </div>
+    </div>
 
- </section>
- <section id="Videos" class="press-video-playlists">
-   <h1 class="playlist-title">What We've been up to</h1>
-   <!---
-   <div class="twitch-frame"><iframe src="https://player.twitch.tv/?channel=untitledgamestudios&parent=www.ugs.pt"  frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe></div>
-ADD TWITCH EMBED LATER HERE -->
-   <div class="playlist-container">
-     <div class="playlist-subdiv">
-   <div class="Playlist-embed-left">
-     <iframe  src="https://www.youtube.com/embed/videoseries?si=lW8aIl5tpFDUb5-2&amp;list=PL490bbVB6rzDuyvSrYhZbneyLpf0qOu0N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div id="KEEPWIPING" class="row mb-4 mx-auto px-5 align-items-center">
+    <div class="col-md-4 themed-grid-col">
+      <img src="Images\Untitled design (1).png" alt="Keep wiping poster" style="max-width: 1069px; min-height:30px; width: 100%; max-height: 600px;">
+    </div>
+    <div class="col-md-8 themed-grid-col">
+      <div id="Keepwiping" class="">
+        <h1 >Keep Wiping!</h1>
+        <p class="lh-1">Status: OUT NOW ON ITCH.IO</p>
+        <p class="lh-1">You're a human trapped on an AI simulation, forced to live by wiping endlessly through what AI thinking are hallways, offices, schools and streets for the AI to gather more data on wiping.</p>
+        <div class="row row-cols-auto">
+        <div class="col my-1"><a class="btn btn-light" rel="canonical" href="https://www.youtube.com/watch?v=Tfrc-sRRo6c&t=680s">Watch Devlogs</a></div>
+        <div class="col my-1"><a class="btn btn-light" rel="canonical" href="https://ugs.pt/kEEP-WIPING.html">LEARN MORE</a></div>
+        <div class="col my-1"><a class="btn btn-danger" rel="canonical" href="https://ugs.itch.io/keep-wiping-ugs">PLAY ON ITCH</a></div>
+     </div>
+    </div>
+  </div>
+    </div>
+
+    <div id="EKSAURIA" class="row mb-3 mx-auto px-5 align-items-center">
+  <div class="col-md-4 themed-grid-col">
+    <img src="Images\2.png" alt="The Poster for our alpha/proof of concept Eksauria. A Retro style RPG." class="my-auto mx-auto pb-3 img-fluid " style="max-width: 1069px; min-height:30px; width: 100%; max-height: 600px;">
+  </div>
+  <div class="col-md-8 themed-grid-col">
+    <div class="">
+      <h1 class="">Eksauria</h1>
+      <p class="lh-1">Status: Development paused - Proof of concept</p>
+      <p class="lh-1">Join Scarlet in an epic retro RPG inspired by Pokémon and Zelda. As her world crumbles amidst a war between Elfs and demons, she must wield the power of the Dwarves' Eksaurias to avenge her lost home.</p>
+      <div class="row row-cols-auto">
+      <div class="col my-1"><a class="btn btn-light" rel="canonical" href="https://www.youtube.com/playlist?list=PL490bbVB6rzDJ9k166VVB9hqoae2g32lk">Watch Devlogs</a></div>
+      <div class="col my-1"><a class="btn btn-light" rel="canonical" href="https://ugs.pt/Eksauria.html">Official Page</a></div>
+      <div class="col my-1"><a class="btn btn-danger" rel="canonical" href="https://ugs.itch.io/eksauria">PLAY ALPHA DEMO</a></div>
+    
    </div>
-   <div class="Playlist-embed-centre">
-     <iframe  src="https://www.youtube.com/embed/videoseries?si=4pD8bhWPyb4ujm7-&amp;list=PL490bbVB6rzAgSr2-y9A8Km2bHwDLKbNa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-   </div> 
-   <div class="Playlist-embed-right">
-     <iframe  src="https://www.youtube.com/embed/videoseries?si=TiUDpauQe-8auc3y&amp;list=PL490bbVB6rzB_UgLfBWW7jVXR2s7NegSj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-   </div>
- </div>
-   </div>
- </section>
- <section class="focus-on-the-game">
-   <div class="focus-container">
-      <img src="images\GrayGamingYouTubeChannelArt-ezgif.com-optimize.gif" alt="A animated Gif done by our Pixel Boy of all of us in our character sprites. Satan has a long cape and scroll, Roxie has Nikita on her lap, Rick has magic pixel glasses and Kaado has a Nintendo power glove.">
-   </div>
- </section>
- <section id="Our-Games" class="Game-cards-container">
-   <div class="all-games-wrapper">
-   <div class="ind-game-card-container">
-      <div class="game-img-container">
-         <img src="images\1.png" alt="The Droian poster in it's full glory, with a big moon in the background with evil metal claws coming from behind it and I.A.N, our main hero bot standing proud in front.">
-      </div>
-      <div id="Droian" class="game-info-container">
-         <h1 class="Game-title">Droian</h1>
-         <p class="Game-status">Status: In Development - Available for Wishlisting</p>
-         <p >Embark on a perilous journey as I.A.N., a courageous little Droid, fighting to save humanity from self-destruction. In a galaxy teetering on the brink of collapse, unearth the secrets of a shape-shifting substance with the power to shape survival.</p>
-         <div class="game-btn-wrapper">
-         <div class="Game-buttons"><a rel="canonical" href="Press-Droian.html">Press Kit</a></div>
-         <div class="Game-buttons"><a rel="canonical" href="https://ugs.itch.io/droian">Itch.io</a></div>
-         <div class="Game-buttons"><a rel="canonical" href="https://store.steampowered.com/app/3256060/Droian/">Wishlist Now</a></div>
-         <div class="Game-buttons"><a rel="canonical" href="Droian.html">More Info</a></div>
-      </div>
-      </div>
-   </div>
-<!--END OF CARD ONE-->
-   <div id="Eksauria" class="ind-game-card-container">
-      <div class="game-img-container">
-         <img src="images\2.png" alt="The Poster for our alpha/proof of concept Eksauria. A Retro style RPG.">
-      </div>
-      <div class="game-info-container">
-         <h1 class="Game-title">Eksauria</h1>
-         <p class="Game-status">Status: Development paused - Proof of concept </p>
-         <p >Join Scarlet in an epic retro RPG inspired by Pokémon and Zelda. As her world crumbles amidst a war between Elfs and demons, she must wield the power of the Dwarves' Eksaurias to avenge her lost home.</p>
-         <div class="game-btn-wrapper">
-         <div class="Game-buttons"><a href="https://ugs.itch.io/eksauria">Itch.io</a></div>
-      </div>
-      </div>
-   </div>
-   <!--END OF CARD 2-->
-   <div id="Redrun" class="ind-game-card-container">
-      <div class="game-img-container">
-         <img src="images\3.png" alt="The bloody poster for Redrun, featuring the red vest boss on the cover servicing undead realness">
-      </div>
-      <div class="game-info-container">
-         <h1 class="Game-title">Redrun</h1>
-         <p class="Game-status">Status: Development paused - Proof of concept </p>
-         <p >Step into the shoes of Olivia Esparza, a retired NOPD detective, as she delves into a twisted realm of voodoo. Trapped in a haunting warehouse, she must unravel the mystery while evading terrifying terrors lurking in the shadows.</p>
-         <div class="game-btn-wrapper">
-         <div class="Game-buttons"><a href="https://ugs.itch.io/redrun-alpha">Itch.io</a></div>
-      </div>
-      </div>
-   </div>
-   <!---END OF CARD 3-->
+  </div>
 </div>
- </section>
- <section id="Donations" class="Donations">
-   <div class="Donations-wrapper">
-      <div class="Donations-title-wrapper"><h1>Support our Games</h1></div>
-      <div class="donation-logo-wrapper">
-         <a href="https://ko-fi.com/untitledgamesstudios" target="_blank" class="w-inline-block"><img src="images/Logo.png" loading="lazy" alt="Ko-fi logo" class="logo-2"></a>
-         <a href="https://www.redbubble.com/people/UGSstudios/shop" target="_blank" class="w-inline-block"><img src="images/Logo_2.png" loading="lazy" alt="Redbubble Logo" class="logo-2"></a>
-         <a href="https://patreon.com/Untitledgamestudios?utm_medium=clipboard_copy&amp;utm_source=copyLink&amp;utm_campaign=creatorshare_creator&amp;utm_content=join_link" target="_blank" class="w-inline-block"><img src="images/Logo_1.png" loading="lazy" alt="Logo Patreon" class="logo-2"></a>
-      </div>
-   </div>
- </section>
- <section id="Merch" class="Merch">
-   <div class="merch-general-container">
-      <div class="merch-text-column"><h2>Pixel Perfect Style</h2> <p>Step into a world of pixelated awesomeness with our exclusive merch collection. From game-inspired goodies to pixel art memes, we've got the perfect blend of nostalgia and humor. <br>All profit goes towards our games!</p>
-         <div class="merch-btn"><a href="https://www.redbubble.com/people/UGSstudios/shop">Merch Shop</a></div>
-      </div>
-      <div class="merch-img-column">
-         <a href="https://www.redbubble.com/i/mouse-pad/Smash-Mouth-Pixel-art-by-UGSstudios/88151296.G1FH6"><img src="images\Image_5.png" alt="A picture of a mouse pad sold on the ugs redbuddle that has a pixelart of the main singer of Smash Mouth"></a>
-         <a href="https://www.redbubble.com/i/socks/I-A-N-The-Adorable-Hero-Droid-Sprite-by-UGSstudios/148206189.9HZ1B"><img src="images\Image_13.png" alt="Socks with the sprite of I.A.N our number 1 good bot"></a>
-      </div>
-      <div class="merch-img-column">
-         <a href="https://www.redbubble.com/i/t-shirt/Droian-The-Indie-Game-Retro-Sci-fi-Horror-Metroidvania-Poster-by-UGSstudios/148202894.IJ6L0"><img src="images\Image_15.png" alt="A shirt featuring the amazing Droian poster in it's full glory."></a>
-         <a href="https://www.redbubble.com/i/hat/Untitled-Game-Studios-logo-by-UGSstudios/86122705.NJ288"><img src="images\Image_8.png" alt="A classic white dad hat featuring our UGS logo."></a>
-      </div>
-
-      
-
-   </div>
-
- </section>
- <section id="Socials" class="Social-media">
-   <div class="title-socials">
-     <h1 class="h2-socials">8-Bit Buzz - Socials</h1>
-   </div>
-   <div class="icon-container">
-   <div class="icon-row">
-     <a href="https://www.twitch.tv/untitledgamestudios"><img src="images\Vector.png" alt="Twitch icon" class="icon"></a>
-     <a href="https://discord.gg/xYMhPRAJS7"><img src="images\Vector (1).png" alt="Discord icon"class="icon"></a>
-     <a href="https://instagram.com/untitledgamestudios"><img src="images\Vector (2).png" alt="Instagram icon"class="icon"></a>
-     <a href="https://www.youtube.com/channel/UCYgFr56yoNcHm0ljVc4FilA"><img src="images\Subtract.png" alt="Youtube icon"class="icon"></a>
-     <a href="https://tiktok.com/@untitledgamestudios"><img src="images\Shape.png" alt="Tiktok Icon"class="icon"></a>
-     <a href="https://twitter.com/Ugs_studio"><img src="images\Combined-Shape.png" alt="Twitter Icon"class="icon"></a>
-     <a href="https://www.facebook.com/ugamestudios"><img src="images\Combined-Shape (1).png" alt="Facebook Icon"class="icon"></a>
-   </div>
- </div>
- </section>
- <section id="Social-posts" class="Social-posts">
-   <div class="Posts-container">
-   <img src="images\4 tips.png" alt="A post from our instagram where Kaado shares some tips about programming">
-   <img src="images\38.png" alt="A meme with the Drake template where it says no no to triple A studios with microtransactions and season passes and yes yes to indie games with innovative games that with free post-launch content">
-   <img src="images\holidays.png" alt="A thank you post we did with all the usernames of our community members thanking them for an amazing 4 years of the studio">
-   <img src="images\Mysterious Are you Ready Animated Instagram Post.png" alt="A team picture that is a photomanipulation because we still don't have a picture of the 4 of us together where Satan is holding a stick with a skull, Rick and Roxie are looking cool and Kaado is mysterious as always.">
-   <img src="images\osteomootron by i.a.n.jpg" alt="A ilustration of one of the enemies from Droian that is called Osteomootron, that is basically a derpy cow infected by aliens">
-   <img src="images\Behind every great game is a developer fueled by caffeine, pizza, and a touch of madness. It's a recipe for gaming greatness and sleep deprivation. Game on, brave souls!.png" alt="A graphic post that says that the only difference between a sucessful game developer and an unsuccessful one is a whole lot of caffeine and a healthy dose of delulu becoming trululu.">
-   </div>
- </section>
- <section id="Mission" class="Mission">
-   <div class="mission-wrapper">
-      <div class="mission-img-wrapper">
-         <img src="https://ugs.pt/images/Logo_8.png" loading="lazy" alt="UGS logo"> 
-      </div>
-      <div class="mission-text-wrapper">
-         <h1>Our Mission</h1>
-         <p>Untitled Game Studio is on a mission to redefine the gaming experience with a firm commitment to authenticity and player satisfaction. Our studio shuns loot boxes, pay-to-win mechanics, and uninspiring narratives. Instead, we prioritize immersive storylines, exhilarating exploration, and, above all, pure unadulterated fun. We firmly believe that when you invest in our games, you deserve the complete package, not just a fraction of it. </p>
-      </div>
-   </div>
- </section>
- <section id="mail-discord-plug" class="mail-discord-plug">
-   <div class="mail-wrapper-general">
-      <div class="mail-text-wrapper">
-         <h1>Join the untitled fam</h1>
-         <p>Be the first to know when big news is announced and get exclusive discounts, Free DLCs and promotions.</p>
-      </div>
-      <div class="mail-button-wrapper">
-         <div class="Button-mail"><a href="https://discord.gg/wvyWGRnCn5">Discord</a></div>
-         <div class="Button-mail"><a href="https://forms.gle/y1Xv5aL6R5yoNHA77">Mailing list</a></div>
-
-      </div>
-   </div>
-
- </section>
- <!--END OF WEBSITE-->
     </div>
-    <section id="Footer">
-      <div class="footer">
-      <div class="footer-information">
-      <div class="footer-logo"><img src="https://ugs.pt/images/Logo_8.png" loading="lazy" alt="UGS logo"> 
+
+    <div id="REDRUN" class="row mb-3 mx-auto px-5 align-items-center">
+      <div class="col-md-4 themed-grid-col">
+        <img src="images\3.png" alt="The bloody poster for Redrun, featuring the red vest boss on the cover servicing undead realness" class="my-auto mx-auto pb-3 img-fluid " style="max-width: 1069px; min-height:30px; width: 100%; max-height: 600px;">
       </div>
-      <div class="contact-us-column">
-           <h3 class="links-heading">Contact Us </h3>
-        <a href="mailto:untitledgamestudios@gmail.com" class="contact-email-ugs">
-              <div class="email">untitledgamestudios@gmail.com</div>
-              </a>
+      <div class="col-md-8 themed-grid-col">
+        <div  class="">
+          <h1 class="">Redrun</h1>
+          <p class="lh-1">Status: Development paused - Proof of concept</p>
+          <p class="lh-1">Step into the shoes of Olivia Esparza, a retired NOPD detective, as she delves into a twisted realm of voodoo. Trapped in a haunting warehouse, she must unravel the mystery while evading terrifying terrors lurking in the shadows.</p>
+          <div class="row row-cols-auto">
+            <div class="col my-1"><a class="btn btn-light" rel="canonical" href="https://ugs.pt/Redrun.html">Official Page</a></div>
+          <div class="col my-1"><a class="btn btn-danger" rel="canonical" href="https://ugs.itch.io/redrun-alpha"> DOWNLOAD ALPHA NOW</a></div>
+
       </div>
-      <div class="Links-column">
-           <h3 class="links-heading"> Find us </h3>
-       <ul class="Social-links">
-        <a href="https://discord.gg/xYMhPRAJS7"class="contact-email-ugs">Discord</a>
-        <a href="https://www.twitch.tv/untitledgamestudios"class="contact-email-ugs">Twitch</a>
-        <a href="https://ugs.itch.io/"class="contact-email-ugs">Itch.io</a>
-       </ul>
-           </div>
-      <div class="about">
-           <h3 class="links-heading"> About us </h3>
-      <ul class="about-links">
-        <a href="https://ugs.pt/about-us.html"class="contact-email-ugs">The Team</a>
-        <a href="https://ugs.pt/#Our-Games"class="contact-email-ugs">Our Games</a>
-        <a href="https://www.redbubble.com/people/UGSstudios/shop"class="contact-email-ugs">Our Merch</a>
-      </ul>
-           </div>
       </div>
-      
-      <div class="copyright-info">
-        <p class="copyright-text"> Copyright © 2024 UNTITLED GAME STUDIOS </p>
-      </div>
-      
-      </div>
-      </section>
-      <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
-<script>
+    </div>
+    </div>
+
+  </section>
+
+  
+
+<div class="container-fluid text-center ">
+  <h1 class="display-3">UGS Official Pixel Perfect Merch</h1>
+          <h4 class="display-6 my-3"><strong>All profit goes towards our games!</strong></h4>
+  <a href="https://www.redbubble.com/people/UGSstudios/shop" ><img class="img-fluid banner-ad  my-4" src="Images\90'SGIFADBANNER.gif"></a>
+  <a href="https://www.redbubble.com/people/UGSstudios/shop"><img class="img-fluid banner-ad  my-4" src="Images\90's ad redbubble.png"></a>
+
+  <div class="flex-wrap">
+    <a href="https://ko-fi.com/untitledgamesstudios" class="mx-2"><img class="social-img img-fluid py-2" src="Images\ko-fi90´slooking button.png" ></a>
+  <a href="https://www.redbubble.com/people/UGSstudios/shop" class="mx-2"><img class="social-img img-fluid py-2" src="Images\redbubble90´slooking button.png" ></a>
+
+  </div>
+
+</div>
+
+<div class="container-sm">
+<div class="flex-wrap row align-items-center my-4 text-end mx-3">
+  <div class="order-2 col-md-4">
+     <img class="img-fluid" src="https://ugs.pt/images/Logo_8.png" loading="lazy" alt="UGS logo"> 
+  </div>
+  <div class="order-1 col-md-8">
+     <h1>Our Mission</h1>
+     <p class="lh-1">Our studio shuns loot boxes, pay-to-win mechanics, and uninspiring narratives. Instead, we prioritize immersive storylines, exhilarating exploration, and, above all, pure unadulterated fun. We firmly believe that when you invest in our games, you deserve the complete package, not just a fraction of it. </p>
+  </div>
+</div>
+</div>
+
+<div class="container-fluid text-center mt-3">
+  <h2>The Untitled Family</h2>
+  <div class="Discord-win-pc"><widgetbot 
+    server="742052327762034769"
+    channel="760949504362676286"
+    width="800"
+    height="450"></widgetbot>
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script></div>
+
+<div class="container my-4">
+  <a href="https://bsky.app/profile/untitledgamestudio.bsky.social" class="mx-2"><img class="social-img img-fluid py-4" src="Images\bluesky90´slooking button.png"></a> 
+  <a href="https://mastodon.social/@untitledgamestudios" class="mx-2"><img class="social-img img-fluid py-4" src="Images\mastodon90´slooking button.png" ></a>
+  <a href="https://instagram.com/untitledgamestudios" class="mx-2"><img class="social-img img-fluid py-4" src="Images\instagram90´slooking button.png" ></a>
+  <a href="https://www.youtube.com/channel/UCYgFr56yoNcHm0ljVc4FilA" class="mx-2"><img class="social-img img-fluid py-4" src="Images\youtube90´slooking button.png" ></a>
+  <a href="https://twitter.com/Ugs_studio" class="mx-2"><img class="social-img img-fluid py-4" src="Images\Twitter90´slooking button.png" ></a>
+  <a href="https://www.linkedin.com/company/untitledgamestudios/?viewAsMember=true" class="mx-2"><img class="social-img img-fluid py-4" src="Images\linkedin90´slooking button.png" ></a>
+  <a href="https://untitledgamestudios.blogspot.com" class="mx-2"><img class="social-img img-fluid py-4" src="Images\blogger90´slooking button.png" ></a>
+  <a href="https://www.facebook.com/ugamestudios" class="mx-2"><img class="social-img img-fluid py-4" src="Images\facebook90´slooking button.png" ></a>
+  <a href="https://discord.gg/wvyWGRnCn5" class="mx-2"><img class="social-img img-fluid py-4" src="Images\Discord90´slooking button.png" ></a>
+
+
+</div>
+
+</div>
+
+<div class="embedsocial-hashtag bg-black" data-ref="e8a51a071ec01e7f080d862403ae8573593bbf38"> <a class="feed-powered-by-es feed-powered-by-es-slider-img es-widget-branding" href="https://embedsocial.com/social-media-aggregator/" target="_blank" title="Instagram widget" > <img src="https://embedsocial.com/cdn/icon/embedsocial-logo.webp" alt="EmbedSocial"> <div class="es-widget-branding-text">Instagram widget</div> </a> </div> <script> (function(d, s, id) { var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/cdn/ht.js"; d.getElementsByTagName("head")[0].appendChild(js); }(document, "script", "EmbedSocialHashtagScript")); </script>
+
+  </main>
+
+  
+  
+
+
+
+
+
+  <script src="/bootstrap.bundle.min.js"></script>
+<div class="embed-responsive embed-responsive-16by9">
+<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+<script class="embed-responsive-item " >
   kofiWidgetOverlay.draw('untitledgamesstudios', {
     'type': 'floating-chat',
-    'floating-chat.donateButton.text': 'Support Us',
-    'floating-chat.donateButton.background-color': '#fcbf47',
-    'floating-chat.donateButton.text-color': '#323842'
+    'floating-chat.donateButton.text': 'Tip Us',
+    'floating-chat.donateButton.background-color': '#ff1500',
+    'floating-chat.donateButton.text-color': '#ffff'
   });
 </script>
-      <script src="script-index.js"></script>
-</body>
+</div>
+
+    </body>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 mx-4 border-top text-bg-dark bg-black">
+      <p class="col-md-4 mb-0 text-body-secondary">© 2025 Untitled Game Studios</p>
+    
+      <a href="#" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <img src="https://ugs.pt/images/Logo_8.png" style="max-width: 140px; min-height: 85px;" alt="Untitled Game Studios Logo">
+      </a>
+    
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="https://ugs.pt/community.html" class="nav-link px-2 text-body-secondary">CONTACT US</a></li>
+        <li class="nav-item"><a href="https://discord.gg/wvyWGRnCn5" class="nav-link px-2 text-body-secondary">DISCORD</a></li>
+        <li class="nav-item"><a href="https://ugs.itch.io" class="nav-link px-2 text-body-secondary">ITCH.IO</a></li>
+        <li class="nav-item"><a href="https://ugs.pt/about-us.html" class="nav-link px-2 text-body-secondary">ABOUT US</a></li>
+      </ul>
+    </footer>
+    
+</html>
