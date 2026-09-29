@@ -150,6 +150,13 @@ li{
   background-repeat: no-repeat;
 }
 
+.xcorpsbg1{
+  background-image: url("Images/xcx.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .game-UGS3{
   order: 3!important;
 }
