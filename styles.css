@@ -83,7 +83,7 @@ li{
 }
 
 .hero-UGS2{
-  background-image: url("images/DTG\ itch\ cover\ image.png");
+  background-image: url("images\DTG\ itch\ cover\ image.png");
   background-position: center top ;
   background-size: cover;
   order: 2!important;
@@ -94,7 +94,7 @@ li{
 
 @media (max-width:500px) {
   .hero-UGS2{
-    background-image: url("images/DTG\ itch\ cover\ image.png");
+    background-image: url("images\DTG\ itch\ cover\ image.png");
     background-position: center;
     background-size: cover;
     min-width: 350px;
