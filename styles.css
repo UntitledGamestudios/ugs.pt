@@ -82,6 +82,28 @@ li{
   
 }
 
+.hero-UGS2{
+  background-image: url("images/DTG\ itch\ cover\ image.png");
+  background-position: center top ;
+  background-size: cover;
+  order: 2!important;
+  min-width: 650px;
+  max-width: 800px;
+  min-height: 400px;
+}
+
+@media (max-width:500px) {
+  .hero-UGS2{
+    background-image: url("images/DTG\ itch\ cover\ image.png");
+    background-position: center;
+    background-size: cover;
+    min-width: 350px;
+    max-width: 800px;
+    min-height: 400px;
+  }
+  
+}
+
 .games-ugs-ani{
   background-image: url("images/Scarlet in game port2rait.png");
   background-position: center;
