@@ -2,18 +2,19 @@
     --main-white: #ffffff;
     --main-red: #ff1500;
     --main-black: #000000;
-    --main-grey: #3a3a3a;
+    --main-grey: #616161;
     --main-yellow:#ffd321; 
+    --bs-secondary-color:#3a3a3a;
 }
-.text-body-secondary{
-  color: #3a3a3a!important;
+.text-body-secondary-ugs{
+  color: var(--main-grey)!important;
 
 }
 .text-bg-dark{
   color: #3a3a3a!important;
 }
 .nav-link{
-  color: #3a3a3a!important;
+  color: #616161!important;
 }
 p{
     font-family: 'VT323', monospace;
